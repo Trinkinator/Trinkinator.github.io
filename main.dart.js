@@ -78626,7 +78626,7 @@ $0(){++this.a.w},
 $S:0}
 A.H3.prototype={
 qZ(a,b){var s,r=null,q=b.Tz($.DA(),t.yp),p=A.bB(a,r,t.w).w
-p=A.lE(new A.vJ(A.aA7(r,r,new A.ua("assets/images/trinkinator-logo-oval-schaum.png",r,r)),r),p.a.b*0.5,r)
+p=A.lE(new A.vJ(A.aA7(r,r,new A.ua("assets/images/trinkinator-logo-oval-schaum.png",r,r)),r),p.a.b*0.375,r)
 s=J.tM(q)
 return A.J9(r,A.kF(A.uI(r,A.a0x(A.a([p,new A.KP(A.pG(B.QH,new A.a0U(a)),B.CA,s,r),B.h7,A.pG(B.QG,new A.a0V(a)),B.h7,A.pG(B.QK,new A.a0W(a)),B.h7,A.pG(B.QE,new A.a0X(this,a)),B.h7,B.QC],t.F),B.Cq,!0),B.A,r,B.yZ,r,r,r,r),r,r))},
 ZL(a){A.hr(a,!1).jH(A.H6(new A.a0R(),null,t.H))}}
