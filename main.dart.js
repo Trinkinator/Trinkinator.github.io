@@ -21545,8 +21545,9 @@ r=A.c5(a,B.c5)
 r=r==null?null:r.b
 if(r==null)r=1
 return new A.vU(s,r,A.wv(a),A.dI(a),b,A.b1())},
-vT:function vT(a,b){this.c=a
-this.a=b},
+vT:function vT(a,b,c){this.c=a
+this.z=b
+this.a=c},
 AG:function AG(a){var _=this
 _.f=_.e=_.d=null
 _.r=!1
@@ -24678,6 +24679,8 @@ m4:function m4(a,b){var _=this
 _.a=a
 _.fU$=_.fl$=_.f3$=null
 _.$ti=b},
+eX:function eX(a,b){this.a=a
+this.b=b},
 aj4(a,b){var s=0,r=A.U(t.H),q,p,o
 var $async$aj4=A.V(function(c,d){if(c===1)return A.R(d,r)
 while(true)switch(s){case 0:p=A.aP("timer")
@@ -24716,8 +24719,6 @@ Un:function Un(){},
 aj8:function aj8(){},
 ajh:function ajh(){},
 aji:function aji(){},
-eX:function eX(a,b){this.a=a
-this.b=b},
 ri:function ri(a){this.a=a},
 R6:function R6(a){var _=this
 _.w=0
@@ -69874,20 +69875,21 @@ s.toString
 s.E(q.vm())
 q.r=!1},
 aah(){return this.NE(!1)},
-J(a){var s,r,q,p,o,n=this,m=null
-if(n.Q!=null)n.a.toString
-s=n.e
+J(a){var s,r,q,p,o,n,m=this,l=null
+if(m.Q!=null)m.a.toString
+s=m.e
 r=s==null
-q=r?m:s.a
-p=r?m:s.c
-n.a.toString
-s=r?m:s.b
+q=r?l:s.a
+p=r?l:s.c
+o=m.a
+o.toString
+s=r?l:s.b
 if(s==null)s=1
-r=n.w
+r=m.w
 r===$&&A.b()
-o=new A.IM(q,p,m,m,s,m,m,B.iD,m,m,B.ae,B.dA,m,!1,r,!1,m)
-o=A.bF(m,m,o,!1,m,m,!1,m,m,m,!0,"",m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m)
-return o}}
+n=new A.IM(q,p,l,l,s,l,l,o.z,l,l,B.ae,B.dA,l,!1,r,!1,l)
+n=A.bF(l,l,n,!1,l,l,!1,l,l,l,!0,"",l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l)
+return n}}
 A.ad8.prototype={
 $0(){var s,r=this.a
 r.CN(this.b)
@@ -79574,6 +79576,8 @@ $0(){var s=this.a,r=s.f3$
 if(r!=null)r.ws(s.$ti.i("dW.E").a(s))},
 $S:0}
 A.m4.prototype={}
+A.eX.prototype={
+H(){return"Setting."+this.b}}
 A.pb.prototype={
 aj(){return new A.E2(new A.Ks(B.y0,$.aj()),A.apg(),B.k)}}
 A.E2.prototype={
@@ -79655,8 +79659,6 @@ $S:496}
 A.aji.prototype={
 $1(a){return A.a([new A.bf("Trinke selbst 1 Schluck.",B.a2),new A.bf("Trinke selbst 2 Schluecke.",B.a2),new A.bf("Trinke selbst 3 Schluecke.",B.a2),new A.bf("Verteile 3 Schluecke an die anderen Spieler.",B.a2),new A.bf("Du holst dem Spieler Rechts neben dir sein neues Getraenk.",B.a2),new A.bf("Auf Ex! Du musst dein Getraenk austrinken!",B.ek),new A.bf("Shots! Shots! Shots! Eine Runde Kurze fuer ALLE!",B.a2),new A.bf("Wasserbombe! Du darfst einem deiner Mitspieler einen Kurzen ins Getraenk mischen.",B.a2),new A.bf("Deutschstunde! Alle Spieler muessen schnellstmoeglich das 'ABC' aufsagen. Stoppt die Zeit. Der langsamste Spieler muss 3 Schluecke trinken. ACHTUNG: Fehler fuehren zur sofortigen Niederlage!",B.a2),new A.bf("Trinke gemeinsam mit dem j\xfcngsten Spieler! Wenn du selbst der j\xfcngste Spieler bist trinke 2 Mal auf die Jugend!",B.a2),new A.bf("Geschichtestunde! Nenne US-Praesidenten. Fuer jeden richtig genannten darfst du einen Schluck verteilen!",B.a2),new A.bf("Deutschstunde! Rezitiere ein ganzes literarisches Werk (z.B. ein Gedicht, Reim). Du darfst maximal zwei Zeilen auslassen. Schaffst du es darfst du 10 Schluecke verteilen. Schaffst du es nicht musst du selbst 5 Schluecke trinken.",B.a2),new A.bf("Musikunterricht! Singe feestyle fuer mindestens 10 Sekunden was dir gerade in den Sinn kommt oder trinke 5 Schluecke.",B.a2),new A.bf("Why so Serious? Joker Time! Jeder Spieler darf eine beaufsichtigte Anzahl an Schluecken nehmen. Diese stehen ihm bis zum Ende dieser Partie zum verteilen zur Verfuegung. (Notieren empfohlen, bitte ehrenvoll auf ausgeglichenen Alkoholgehalt achten! siehe Regel Nr 3).",B.ek),new A.bf("Trinke 3 Schluecke, Du wirst es schon verdient haben.",B.a2),new A.bf("Beim Spannen erwischt! Trinke 1 Schluck fuer jeden Spieler des anderen Geschlechts.",B.a2),new A.bf("Arbeitest du noch an mindestens einem Traum den du als Kind hattest? Wenn die Antwort nein ist dann trinke 2 Kurze zur Strafe!",B.a2),new A.bf("Kampfjet! Wirf mit einem kleinen Papierkuegelchen nach dem Glas von einem Mitspieler. Wenn du triffst muss er Exen! (Mindestabstand zwei Armlaengen des Opfers).",B.a2),new A.bf("Drinks unter der Dusche! Trinke 2 Schluecke und tu fuer 10 Sekunden so als wurdest du unter der Dusche stehen. Schampoo nicht vergessen.",B.a2),new A.bf("Sportstunde! Mache soviele Liegestuetze wie du kannst. Maenner: 1 Schluck verteilen pro 10 geschafften. Frauen: 1 Schluck verteilen pro 5 geschafften.",B.a2),new A.bf("Mega Mind! Du darfst dir eine Regel ausdenken, musst dafuer aber 7 Schluecke trinken. Die Entscheidung liegt bei dir!",B.ek),new A.bf("Tuersteher! Ihr d\xfcrft nurnoch aufs Klo gehen, nachdem ihr einen Shot getrunken habt.",B.a2),new A.bf("Ich habe noch nie...! Ich habe noch nie meine Nachbarn ausspioniert.",B.c0),new A.bf("Ich habe noch nie...! Ich habe noch nie einen Freund angelogen um schlimmeres zu verhindern.",B.c0),new A.bf("Ich habe noch nie...! Ich habe noch nie einen Kuss abgelehnt.",B.c0),new A.bf("Ich habe noch nie...! Ich habe noch nie jemanden gekuesst den/die ich nicht kannte.",B.c0),new A.bf("Ich habe noch nie...! Ich habe noch nie eine Sex Fantasie/Traum mit einem meiner Lehrer gehabt.",B.c0),new A.bf("Ich habe noch nie...! Ich habe noch nie Handschellen getragen.",B.c0),new A.bf("Trinke 2 Schluecke wenn du keinen MSN account hast.",B.a2),new A.bf("Der Goenner! Verteile 5 Schluecke an deine Mitspieler wenn du innerhalb des letzten Jahres aktiv gespendet hast.",B.a2),new A.bf("Shuffle Mode! Alle Getr\xe4nke wandern im Uhrzeigersinn um einen Besitzer weiter. KANN \xfcbersprungen werden, wenn alle dasselbe Getr\xe4nk haben, dann trinken alle 3 Schl\xfccke.",B.a2),new A.bf("Fred Fred Manfred! Ab jetzt musst du in jedem Satz einbauen wie schwer beschaeftigt du heute nicht warst. Bei vergessen Trinken.",B.a2),new A.bf("Kondom gerissen! Dir ist beim Liebesspiel das Kondom gerissen. Trinke auf Ex und einen Kurzen um die Pille danach zu kaufen ODER trinke ab naechster Runde jedes Mal wenn du an der Reihe bist einen Kurzen bis zum Ende des Spieles um deine Alimente zu begleichen.",B.jQ)],t.UB)},
 $S:497}
-A.eX.prototype={
-H(){return"Setting."+this.b}}
 A.ri.prototype={
 aj(){return new A.R6(B.k)}}
 A.R6.prototype={
@@ -79683,7 +79685,7 @@ return J.p6(this.a,s)},
 $S:498}
 A.Hq.prototype={
 ra(a,b){var s,r=null,q=b.u7($.tT(),t.yp),p=A.bD(a,r,t.w).w
-p=A.lI(new A.vT(A.aBa(r,r,new A.uk("assets/images/trinkinator-logo-oval-schaum.png",r,r)),r),p.a.b*0.375,r)
+p=A.lI(new A.vT(A.aBa(r,r,new A.uk("assets/images/trinkinator-logo-oval-schaum.png",r,r)),B.iD,r),p.a.b*0.375,r)
 s=J.tX(q)
 return A.y6(r,A.kJ(A.uT(r,A.a1_(A.a([p,new A.Lb(A.mY(B.R2,new A.a1m(a)),B.CR,s,r),B.en,A.mY(B.R1,new A.a1n(a)),B.en,A.mY(B.QY,new A.a1o(a)),B.en,A.mY(B.R5,new A.a1p(a)),B.en,A.mY(B.QZ,new A.a1q(this,a)),B.en,B.QV],t.F),B.CH,!0),B.D,r,B.zh,r,r,r,r),r,r))},
 a_G(a){A.fK(a,!1).j_(A.wC(new A.a1i(),null,t.H))}}
