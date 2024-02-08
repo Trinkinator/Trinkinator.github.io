@@ -14,8 +14,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "458fde86651d87f78144b19a38613cb1
 "assets/assets/images/trinkinator-logo-removebg.png": "8d4df6e05a60c843f2f0632e8ecb95ee",
 "assets/assets/images/trinkinator-logo.png": "3d944932401939ad705eb396ea545935",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "9709be337e0f1fdfbe1339d01fc2dd2c",
-"assets/NOTICES": "352feaa20cdc144a4c3fc358ab6b50df",
+"assets/fonts/MaterialIcons-Regular.otf": "935ece41b8b120dd70d8381f8049ae31",
+"assets/NOTICES": "63d94a749fb044061ae55a509dba5caf",
 "assets/shaders/ink_sparkle.frag": "4096b5150bac93c41cbc9b45276bd90f",
 "canvaskit/canvaskit.js": "eb8797020acdbdf96a12fb0405582c1b",
 "canvaskit/canvaskit.wasm": "73584c1a3367e3eaf757647a8f5c5989",
@@ -30,9 +30,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "458fde86651d87f78144b19a38613cb1
 "icons/Icon-512.png": "33389a6357278e41fe087c8b667c4dcc",
 "icons/Icon-maskable-192.png": "279fc7c2a61272343a73dd38b56d38a2",
 "icons/Icon-maskable-512.png": "33389a6357278e41fe087c8b667c4dcc",
-"index.html": "6c6d45e5db58c09a5750e39af42a7045",
-"/": "6c6d45e5db58c09a5750e39af42a7045",
-"main.dart.js": "06cbb30599c501cdb450acdd9c496235",
+"index.html": "ef96b30ecbc0b0bdd4375dc316dbd3e3",
+"/": "ef96b30ecbc0b0bdd4375dc316dbd3e3",
+"main.dart.js": "ca89e639a203fda01bb2770815a16817",
 "manifest.json": "ceb047492e41fa043adf6779a0bdc02c",
 "version.json": "03e907c4fbc766cfcdd0cd1aeee20606"};
 // The application shell files that are downloaded before a service worker can
